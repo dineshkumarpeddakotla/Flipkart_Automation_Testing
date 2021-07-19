@@ -7,12 +7,14 @@
  */
 package com.flipkartapplication.utility;
 
+import javax.activation.DataHandler;
+import javax.activation.DataSource;
+import javax.activation.FileDataSource;
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
-import java.io.IOException;
 import java.util.Properties;
 
 public class MailUtil {
@@ -26,7 +28,7 @@ public class MailUtil {
         String[] to = {RECIPIENT}; // list of recipient email addresses
         String subject = "Test Report";
         String body = "Flipkart Testing Report";
-        String reportPath = "C:\\Users\\dinnu\\Testing\\FlipkartAutomationTesting\\TestReport\\Test-Automaton-Report.html";
+        String reportPath = "C:\\Users\\dinnu\\Testing\\FlipkartAutomationTesting\\TestReport\\flipkartTestingReport.html";
 
         sendFromGMail(to, subject, body,reportPath);
     }
@@ -59,24 +61,34 @@ public class MailUtil {
             for (InternetAddress address : toAddress) {
                 message.addRecipient(Message.RecipientType.TO, address);
             }
-            Multipart emailContent = new MimeMultipart();
+            message.setSubject(subject);
 
-            //Text body part
-            MimeBodyPart textBodyPart = new MimeBodyPart();
-            textBodyPart.setText("My multipart text");
+            // Create the message part
+            BodyPart messageBodyPart = new MimeBodyPart();
 
-            //Attachment body part.
-            MimeBodyPart attachment = new MimeBodyPart();
-            attachment.attachFile(reportPath);
+            // Now set the actual message
+            messageBodyPart.setText(body);
 
-            //Attach body parts
-            emailContent.addBodyPart(textBodyPart);
-            emailContent.addBodyPart(attachment);
-            message.setText(subject);
-            message.setText(body);
+            // Create a multipar message
+            Multipart multipart = new MimeMultipart();
+
+            // Set text message part
+            multipart.addBodyPart(messageBodyPart);
+
+            // Part two is attachment
+            messageBodyPart = new MimeBodyPart();
+            String filename = "flipkart Test Report";
+            DataSource source = new FileDataSource(reportPath);
+            messageBodyPart.setDataHandler(new DataHandler(source));
+            messageBodyPart.setFileName(filename);
+            multipart.addBodyPart(messageBodyPart);
+
+            // Send the complete message parts
+            message.setContent(multipart);
+
 
             Transport.send(message, message.getAllRecipients());
-        } catch (MessagingException | IOException e) {
+        } catch (MessagingException e) {
             e.printStackTrace();
         }
     }

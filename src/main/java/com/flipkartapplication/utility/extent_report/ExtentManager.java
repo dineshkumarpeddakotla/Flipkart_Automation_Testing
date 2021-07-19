@@ -17,9 +17,9 @@ import java.io.File;
 public class ExtentManager {
 
     private static ExtentReports extent;
-    private static final String reportFileName = "FlipkartTestingReport" + ".html";
+    private static final String reportFileName = "flipkartTestingReport" + ".html";
     private static final String fileSeparator = System.getProperty("file.separator");
-    private static String reportFilepath = System.getProperty("user.dir") + fileSeparator + "TestReport";
+    private static String reportFilepath = System.getProperty("user.dir") + fileSeparator + "testreport";
     private static final String reportFileLocation = reportFilepath + fileSeparator + reportFileName;
 
 
@@ -41,6 +41,7 @@ public class ExtentManager {
         htmlReporter.config().setEncoding("utf-8");
         htmlReporter.config().setReportName(reportFileName);
         htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
+        htmlReporter.config().setCSS(".r-img { width: 30%; }");
 
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);

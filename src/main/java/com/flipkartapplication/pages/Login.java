@@ -44,6 +44,18 @@ public class Login extends BaseClass {
         PageFactory.initElements(driver, this);
     }
 
+    public Boolean emailOrMobileNumberEnabled() {
+        return emailOrMobileNumber.isEnabled();
+    }
+
+    public Boolean passwordBoxEnabled() {
+        return password.isEnabled();
+    }
+
+    public Boolean loginButtonDisplayed() {
+        return loginButton.isDisplayed();
+    }
+
     @Step("1.Enter email or mobile number" +
             "2.Enter password" +
             "3.Click on login button")
@@ -61,6 +73,7 @@ public class Login extends BaseClass {
         Log.debug("click on login button");
         loginButton.click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        String a ="//a[contains(text(),'Login')]";
 
         return driver.getTitle();
     }
