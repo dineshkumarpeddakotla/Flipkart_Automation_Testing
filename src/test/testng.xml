@@ -6,6 +6,9 @@
         <classes>
             <class name="com.flipkartapplication.TestFlipkartApplication">
                 <methods>
+                    <include name="emailOrMobileNumberTextBoxIsEnabled"/>
+                    <include name="passwordTextBoxIsEnabled"/>
+                    <include name="loginButtonIsDisplayed"/>
                     <include name="loginToApplication"/>
                 </methods>
             </class>

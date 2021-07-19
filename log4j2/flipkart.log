@@ -1,35 +1,76 @@
-[INFO ] 2021-07-18 20:17:41.138 [main] Log - select browser
-[INFO ] 2021-07-18 20:17:47.650 [main] Log - navigate to url :https://www.flipkart.com/
-[INFO ] 2021-07-18 20:17:58.620 [main] Log - Internet is connected
-[INFO ] 2021-07-18 20:17:58.964 [main] Log - loginToApplication test is starting.
-[DEBUG] 2021-07-18 20:18:06.057 [main] Log - clear the emailOrMobileNumber text box
-[DEBUG] 2021-07-18 20:18:06.451 [main] Log - email or mobile number is entered dineshkumar.icon.dk@gmail.com
-[DEBUG] 2021-07-18 20:18:06.921 [main] Log - clear the password text box
-[DEBUG] 2021-07-18 20:18:07.094 [main] Log - password is enteredDinnu@247
-[DEBUG] 2021-07-18 20:18:07.346 [main] Log - click on login button
-[DEBUG] 2021-07-18 20:18:12.656 [main] Log - send product namemobiles
-[DEBUG] 2021-07-18 20:18:12.854 [main] Log - press enter
-[DEBUG] 2021-07-18 20:18:13.066 [main] Log - click on product
-[INFO ] 2021-07-18 20:18:15.551 [main] Log - parent window detailsCDwindow-E957177F61BE79995E7100515293C5A7
-[INFO ] 2021-07-18 20:18:15.585 [main] Log - windows in browser[CDwindow-E957177F61BE79995E7100515293C5A7, CDwindow-3E6126B9A39E0A72CD9A76BCE7EFE168]
-[DEBUG] 2021-07-18 20:18:15.585 [main] Log - switch to window id of CDwindow-3E6126B9A39E0A72CD9A76BCE7EFE168
-[DEBUG] 2021-07-18 20:18:15.618 [main] Log - click on add to cart
-[INFO ] 2021-07-18 20:18:20.333 [main] Log - switch to parent windowCDwindow-E957177F61BE79995E7100515293C5A7
-[INFO ] 2021-07-18 20:18:20.404 [main] Log - returns current url
-[DEBUG] 2021-07-18 20:18:20.501 [main] Log - move to element[[ChromeDriver: chrome on WINDOWS (5cf79e3866e42d7d2a1f5c4a5ee90fce)] -> xpath: //div[@class='_2Xfa2_']/div[3]/div/div/div/div]
-[DEBUG] 2021-07-18 20:18:20.757 [main] Log - move to element[[ChromeDriver: chrome on WINDOWS (5cf79e3866e42d7d2a1f5c4a5ee90fce)] -> xpath: //div[contains(text(),'Logout')]]
-[DEBUG] 2021-07-18 20:18:20.939 [main] Log - click on logout
-[INFO ] 2021-07-18 20:18:21.065 [main] Log - returns current url of page
-[ERROR] 2021-07-18 20:18:21.078 [main] Log - loginToApplication Test is failed
-[INFO ] 2021-07-18 20:18:22.826 [main] Log - loginToApplication test is starting.
-[DEBUG] 2021-07-18 20:18:22.899 [main] Log - clear the emailOrMobileNumber text box
-[DEBUG] 2021-07-18 20:18:27.092 [main] Log - email or mobile number is entered dineshkumar.icon.dk@gmail.com
-[DEBUG] 2021-07-18 20:18:27.893 [main] Log - clear the password text box
-[DEBUG] 2021-07-18 20:18:28.002 [main] Log - password is enteredDinnu@259
-[DEBUG] 2021-07-18 20:18:28.236 [main] Log - click on login button
-[ERROR] 2021-07-18 20:18:38.726 [main] Log - loginToApplication Test is failed
-[INFO ] 2021-07-18 20:18:39.023 [main] Log - loginToApplication test is starting.
-[DEBUG] 2021-07-18 20:18:39.070 [main] Log - clear the emailOrMobileNumber text box
-[ERROR] 2021-07-18 20:18:49.193 [main] Log - loginToApplication Test is failed
-[INFO ] 2021-07-18 20:18:54.067 [main] Log - I am in onFinish method TestFlipkartApplication.java
-[INFO ] 2021-07-18 20:19:03.471 [main] Log - send reports to email
+[INFO ] 2021-07-19 13:04:36.836 [main] Log - select browser
+[INFO ] 2021-07-19 13:04:59.599 [main] Log - navigate to url :https://www.flipkart.com/
+[INFO ] 2021-07-19 13:05:07.546 [main] Log - Internet is connected
+[INFO ] 2021-07-19 13:05:07.613 [main] Log - loginToApplication test is starting.
+[DEBUG] 2021-07-19 13:05:10.297 [main] Log - clear the emailOrMobileNumber text box
+[DEBUG] 2021-07-19 13:05:10.757 [main] Log - email or mobile number is entered dineshkumar.icon.dk@gmail.com
+[DEBUG] 2021-07-19 13:05:11.173 [main] Log - clear the password text box
+[DEBUG] 2021-07-19 13:05:11.449 [main] Log - password is enteredDinnu@247
+[DEBUG] 2021-07-19 13:05:11.733 [main] Log - click on login button
+[DEBUG] 2021-07-19 13:05:16.900 [main] Log - send product namemobiles
+[DEBUG] 2021-07-19 13:05:17.126 [main] Log - press enter
+[DEBUG] 2021-07-19 13:05:17.421 [main] Log - click on product
+[INFO ] 2021-07-19 13:05:19.801 [main] Log - parent window detailsCDwindow-CF80D711929401051BE57E945C6B14E6
+[INFO ] 2021-07-19 13:05:19.901 [main] Log - windows in browser[CDwindow-CF80D711929401051BE57E945C6B14E6, CDwindow-F4650551DDAF0B5E2F60E32930B3C341]
+[DEBUG] 2021-07-19 13:05:19.901 [main] Log - switch to window id of CDwindow-F4650551DDAF0B5E2F60E32930B3C341
+[DEBUG] 2021-07-19 13:05:19.916 [main] Log - click on add to cart
+[INFO ] 2021-07-19 13:05:26.335 [main] Log - switch to parent windowCDwindow-CF80D711929401051BE57E945C6B14E6
+[INFO ] 2021-07-19 13:05:26.402 [main] Log - returns current url
+[DEBUG] 2021-07-19 13:05:26.444 [main] Log - move to element[[ChromeDriver: chrome on WINDOWS (fbc09a4c49fbcf189cf4541e08b47d95)] -> xpath: //div[@class='_2Xfa2_']/div[3]/div/div/div/div]
+[DEBUG] 2021-07-19 13:05:27.039 [main] Log - move to element[[ChromeDriver: chrome on WINDOWS (fbc09a4c49fbcf189cf4541e08b47d95)] -> xpath: //div[contains(text(),'Logout')]]
+[DEBUG] 2021-07-19 13:05:27.206 [main] Log - click on logout
+[INFO ] 2021-07-19 13:05:27.329 [main] Log - returns current url of page
+[ERROR] 2021-07-19 13:05:27.343 [main] Log - loginToApplication Test is failed
+[INFO ] 2021-07-19 13:05:28.559 [main] Log - loginToApplication test is starting.
+[DEBUG] 2021-07-19 13:05:28.621 [main] Log - clear the emailOrMobileNumber text box
+[DEBUG] 2021-07-19 13:05:31.550 [main] Log - email or mobile number is entered dineshkumar.icon.dk@gmail.com
+[DEBUG] 2021-07-19 13:05:31.750 [main] Log - clear the password text box
+[DEBUG] 2021-07-19 13:05:31.841 [main] Log - password is enteredDinnu@259
+[DEBUG] 2021-07-19 13:05:32.227 [main] Log - click on login button
+[ERROR] 2021-07-19 13:05:42.529 [main] Log - loginToApplication Test is failed
+[INFO ] 2021-07-19 13:05:43.003 [main] Log - loginToApplication test is starting.
+[DEBUG] 2021-07-19 13:05:43.147 [main] Log - clear the emailOrMobileNumber text box
+[ERROR] 2021-07-19 13:05:53.260 [main] Log - loginToApplication Test is failed
+[INFO ] 2021-07-19 13:05:56.756 [main] Log - I am in onFinish method TestFlipkartApplication.java
+[INFO ] 2021-07-19 13:06:06.497 [main] Log - send reports to email
+[INFO ] 2021-07-19 13:08:07.927 [main] Log - select browser
+[INFO ] 2021-07-19 13:08:17.028 [main] Log - navigate to url :https://www.flipkart.com/
+[INFO ] 2021-07-19 13:08:26.010 [main] Log - Internet is connected
+[INFO ] 2021-07-19 13:08:26.023 [main] Log - emailOrMobileNumberTextBoxIsEnabled test is starting.
+[INFO ] 2021-07-19 13:08:29.138 [main] Log - emailOrMobileNumberTextBoxIsEnabled Test is passed
+[INFO ] 2021-07-19 13:08:30.895 [main] Log - passwordTextBoxIsEnabled test is starting.
+[INFO ] 2021-07-19 13:08:31.591 [main] Log - passwordTextBoxIsEnabled Test is passed
+[INFO ] 2021-07-19 13:08:32.293 [main] Log - loginButtonIsDisplayed test is starting.
+[INFO ] 2021-07-19 13:08:32.735 [main] Log - loginButtonIsDisplayed Test is passed
+[INFO ] 2021-07-19 13:08:33.621 [main] Log - loginToApplication test is starting.
+[DEBUG] 2021-07-19 13:08:33.676 [main] Log - clear the emailOrMobileNumber text box
+[DEBUG] 2021-07-19 13:08:34.068 [main] Log - email or mobile number is entered dineshkumar.icon.dk@gmail.com
+[DEBUG] 2021-07-19 13:08:34.804 [main] Log - clear the password text box
+[DEBUG] 2021-07-19 13:08:34.939 [main] Log - password is enteredDinnu@247
+[DEBUG] 2021-07-19 13:08:35.180 [main] Log - click on login button
+[DEBUG] 2021-07-19 13:08:40.005 [main] Log - send product namemobiles
+[DEBUG] 2021-07-19 13:08:40.586 [main] Log - press enter
+[DEBUG] 2021-07-19 13:08:40.983 [main] Log - click on product
+[INFO ] 2021-07-19 13:08:43.968 [main] Log - parent window detailsCDwindow-488ACA416DDFA6D3227179E7B0D45A6A
+[INFO ] 2021-07-19 13:08:44.051 [main] Log - windows in browser[CDwindow-488ACA416DDFA6D3227179E7B0D45A6A, CDwindow-BACFAA00C95544CC467DFB76C307BF17]
+[DEBUG] 2021-07-19 13:08:44.051 [main] Log - switch to window id of CDwindow-BACFAA00C95544CC467DFB76C307BF17
+[DEBUG] 2021-07-19 13:08:44.087 [main] Log - click on add to cart
+[INFO ] 2021-07-19 13:08:54.234 [main] Log - switch to parent windowCDwindow-488ACA416DDFA6D3227179E7B0D45A6A
+[INFO ] 2021-07-19 13:08:54.370 [main] Log - returns current url
+[DEBUG] 2021-07-19 13:08:54.611 [main] Log - move to element[[ChromeDriver: chrome on WINDOWS (ddc61fda79ba6ebb4abdb4994445c729)] -> xpath: //div[@class='_2Xfa2_']/div[3]/div/div/div/div]
+[DEBUG] 2021-07-19 13:08:55.066 [main] Log - move to element[[ChromeDriver: chrome on WINDOWS (ddc61fda79ba6ebb4abdb4994445c729)] -> xpath: //div[contains(text(),'Logout')]]
+[DEBUG] 2021-07-19 13:08:55.270 [main] Log - click on logout
+[INFO ] 2021-07-19 13:08:55.926 [main] Log - returns current url of page
+[ERROR] 2021-07-19 13:08:57.045 [main] Log - loginToApplication Test is failed
+[INFO ] 2021-07-19 13:09:04.000 [main] Log - loginToApplication test is starting.
+[DEBUG] 2021-07-19 13:09:04.082 [main] Log - clear the emailOrMobileNumber text box
+[DEBUG] 2021-07-19 13:09:04.476 [main] Log - email or mobile number is entered dineshkumar.icon.dk@gmail.com
+[DEBUG] 2021-07-19 13:09:06.338 [main] Log - clear the password text box
+[DEBUG] 2021-07-19 13:09:06.934 [main] Log - password is enteredDinnu@259
+[DEBUG] 2021-07-19 13:09:08.228 [main] Log - click on login button
+[ERROR] 2021-07-19 13:09:19.533 [main] Log - loginToApplication Test is failed
+[INFO ] 2021-07-19 13:09:21.070 [main] Log - loginToApplication test is starting.
+[DEBUG] 2021-07-19 13:09:22.279 [main] Log - clear the emailOrMobileNumber text box
+[ERROR] 2021-07-19 13:09:32.334 [main] Log - loginToApplication Test is failed
+[INFO ] 2021-07-19 13:10:14.878 [main] Log - I am in onFinish method TestFlipkartApplication.java
+[INFO ] 2021-07-19 13:10:30.482 [main] Log - send reports to email

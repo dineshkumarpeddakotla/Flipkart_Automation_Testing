@@ -26,10 +26,10 @@ com/flipkartapplication/utility/listeners/TestListener.java
  com.flipkartapplication.utility.listeners.TestListener
 com/flipkartapplication/utility/extent_report/ExtentManager.java
  com.flipkartapplication.utility.extent_report.ExtentManager
-com/flipkartapplication/pages/Login.java
- com.flipkartapplication.pages.Login
+com/flipkartapplication/base/BaseClass.java
+ com.flipkartapplication.base.BaseClass
 com/flipkartapplication/utility/MailUtil.java
  com.flipkartapplication.utility.MailUtil
  com.flipkartapplication.utility.MailUtil$1
-com/flipkartapplication/base/BaseClass.java
- com.flipkartapplication.base.BaseClass
+com/flipkartapplication/pages/Login.java
+ com.flipkartapplication.pages.Login
